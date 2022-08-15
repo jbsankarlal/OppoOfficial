@@ -1,0 +1,644 @@
+*{
+    padding: 0%;
+    margin: 0%;
+
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.logo{
+    float: left;
+}
+
+.navbar{
+    height: 65px;
+    width: 100%;
+    
+}
+
+.navlinks1{
+
+    
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 64px;
+    font-weight: 500;
+    text-decoration: none;
+    float: left;
+    text-align: center;
+    width: 70%;
+
+}
+
+.navlinks1 ul li{
+	list-style: none;
+	display: inline-block;
+    padding-right: 30px;
+    	
+}
+
+.navlinks2{
+    float: right;
+    margin-right: 60px;
+}
+
+
+.navlinks2 ul li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 22px;
+    padding-right: 20px;
+    
+}
+
+
+
+
+.section1{
+    background-image: url(images/img1.png);
+    background-size: cover;
+    height: 745px;
+    width: 100%;
+}
+
+.banner{
+    float: left;
+    margin-top: 280px;
+    width: 383px;
+    height: 248px;
+    margin-left: 84.8px;
+}
+
+.textarea1 h1{
+    font-size: 52px;
+    line-height: 72px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #000000;
+}
+
+.textarea1 h2{
+    margin-top: 12px;
+    font-size: 28px;
+    line-height: 44px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+}
+
+.textarea1 p{
+    margin-top: 12px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    opacity: .56;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    width: 100%;
+}
+
+.btn1{
+    margin-top: 32px;
+    margin-right: 20px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: white;
+    background-color: #000000;
+    line-height: 28px;
+}
+
+.btn2{
+    font-size: 14px;
+    border: 0;
+    line-height: 24px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    color: #000000;
+    background-color: #86B6B8;
+    padding-bottom: 4px;
+    border-bottom: 1px solid;
+ 
+}
+
+.section2{
+    float: left;
+    height: 180vh;
+    width: 100%;
+    background-color: #F3F3F3;
+}
+
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 0 80.4px;
+    width: 100%;
+}
+
+.wrapper h1{
+    float: left;
+    padding-top: 128px;
+    width: 241.5px;
+    height: 50.4px;
+    font-size: 42px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:  400;
+    line-height: 50px;
+    color: black;
+    font-style: normal;
+    margin-bottom: 40px;
+}
+
+.w1{
+    float: left;
+}
+
+.img2{
+    
+    background-image: url(images/img2.png);
+    background-size: cover;
+    height: 869px;
+    width: 652px;
+}
+
+.w1 h2{
+    font-size: 20px;
+    margin-top: 16px;
+    line-height: 150%;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:  500;
+}
+
+.w1 p{
+    margin-top: 3px;
+    font-size: 14px;
+    line-height: 170%;
+    width: 100%;
+    opacity: 1;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:  400;
+}
+
+.s2bt1{
+    margin-top: 10px;
+    background-color: #000;
+    display: inline-block;
+    color: #fff;
+    border: 0;
+    padding: 6px 16px;
+    border-radius: 2px;
+}
+
+.s2bt2{
+    font-size: 12px;
+    border: 0;
+    padding-bottom: 2px;
+    border-bottom: 1px solid;
+    margin-right: 12px;
+    font-weight: 500;
+    line-height: 170%;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-variation-settings: 'wght' 550;
+    margin-left: 5px;
+    background-color: transparent;
+    
+}
+
+.narrow{
+    float: left;
+    width: 490px !important;
+    display: flex;
+    flex-direction: column;
+    padding-left: 170px;
+}
+
+.w3{
+    display: block;
+}
+.img3{
+    background-image: url(images/img3.png);
+    background-size: cover;
+    width: 490px;
+    height: 326.6px;
+}
+
+.w2 h2{
+    font-size: 20px;
+    margin-top: 16px;
+    line-height: 150%;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:  500;
+}
+
+.w2 p{
+    margin-top: 3px;
+    font-size: 14px;
+    line-height: 170%;
+    width: 100%;
+    opacity: 1;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:  400;
+}
+
+.img4{
+    margin-top: 80px;
+    background-image: url(images/img4.png);
+    background-size: cover;
+    width: 490px;
+    height: 326.6px;
+}
+
+.w3 h2{
+    font-size: 20px;
+    margin-top: 16px;
+    line-height: 150%;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:  500;
+}
+
+.w3 p{
+    margin-top: 3px;
+    font-size: 14px;
+    line-height: 170%;
+    width: 100%;
+    opacity: 1;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:  400;
+}
+
+.section3{
+    height: 190vh;
+    width: 100%;
+    float: left;
+    background-color: white;
+}
+
+.sec3 h1{
+    float: left;
+    padding-top: 128px;
+    width: 241.5px;
+    height: 50.4px;
+    font-size: 42px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:  400;
+    line-height: 50px;
+    color: black;
+    font-style: normal;
+    margin-bottom: 40px;
+    margin-left: 80.6px;
+
+}
+.phonewrap{
+    height: 450.1px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 84.6px;
+}
+
+
+.imgg{
+    float: left;
+    height: 386px;
+    width: 424px;
+    margin-right: 20px;
+   
+
+}
+.img5{
+    background-image: url(images/img5.png);
+    width: 424px;
+    height: 290px;
+    background-size: cover;
+    
+}
+.img6{
+    background-image: url(images/img6.png);
+    width: 424px;
+    height: 290px;
+    background-size: cover;
+    
+}
+
+.img7{
+    background-image: url(images/img7.png);
+    width: 424px;
+    height: 290px;
+    background-size: cover;
+}
+
+.imgg h2{
+    padding-top: 10px;
+    font-size: 20px;
+    line-height: 150%;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:  500;
+
+}
+
+.imgg p{
+   margin-top: 3px;
+    font-size: 14px;
+    line-height: 170%;
+    width: 100%;
+    opacity: 1;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:  400; 
+}
+
+.imgg button{
+    font-size: 14px;
+    border: 0;
+    padding-bottom: 2px;
+    border-bottom: 1px solid;
+    margin:3px 12px 0 0;
+    font-weight: 400;
+    line-height: 170%;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-variation-settings: 'wght' 550;
+    background-color: transparent;    
+}
+
+    .img8{
+        background-image: url(images/img8.png);
+        width: 424px;
+        height: 290px;
+        background-size: cover;
+        
+    }
+    .img9{
+        background-image: url(images/img9.png);
+        width: 424px;
+        height: 290px;
+        background-size: cover;
+        
+    }
+    
+    .img10{
+        background-image: url(images/img10.png);
+        width: 424px;
+        height: 290px;
+        background-size: cover;
+    }
+
+    .section4{
+        height: 100vh;
+        width: 100%;
+        float: left;
+        background-color: #F3F3F3;
+    }
+
+
+.section4 h1{
+    float: left;
+    padding-top: 128px;
+    width: 600px;
+    height: 50.4px;
+    font-size: 42px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:  400;
+    line-height: 50px;
+    color: black;
+    font-style: normal;
+    margin-bottom: 40px;
+    margin-left: 80.6px;
+}
+
+
+.img11{
+    background-image: url(images/img11.png);
+    width: 424px;
+    height: 290px;
+    background-size: cover;
+    
+}
+.img12{
+    background-image: url(images/img12.png);
+    width: 424px;
+    height: 290px;
+    background-size: cover;
+    
+}
+
+.img13{
+    background-image: url(images/img13.png);
+    width: 424px;
+    height: 290px;
+    background-size: cover;
+}
+
+.section5{
+    height: 100vh;
+    width: 100%;
+    float: left;
+    background-color: white; 
+}
+
+.section5 h1{
+    float: left;
+    padding-top: 128px;
+    width: 600x;
+    height: 50.4px;
+    font-size: 42px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:  400;
+    line-height: 50px;
+    color: black;
+    font-style: normal;
+    margin-bottom: 40px;
+    margin-left: 80.6px;
+}
+
+.img14{
+    background-image: url(images/img14.png);
+    width: 424px;
+    height: 290px;
+    background-size: cover;
+    
+}
+.img15{
+    background-image: url(images/img15.png);
+    width: 424px;
+    height: 290px;
+    background-size: cover;
+    
+}
+
+.img16{
+    background-image: url(images/img16.png);
+    width: 424px;
+    height: 290px;
+    background-size: cover;
+}
+
+.section6{
+    height: 59vh;
+    width: 100%;
+    background-color: #F9F4EC;
+    float: left;
+}
+
+.section6 h1{
+    
+    padding-top: 85px;
+    width: 600x;
+    height: 50.4px;
+    font-size: 42px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:  400;
+    line-height: 50px;
+    color: black;
+    font-style: normal;
+    margin-bottom: 40px;
+  
+}
+
+.pp3{
+    font-size: 15px;
+    width: 100%;
+    font-family: UberMove, UberMoveText, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:  400; 
+    justify-content: center;
+    
+}
+
+.inputtext{
+    margin-top: 10px;
+    width: 518px;
+    height: 50px;
+    margin-left: 40px;
+    font-size: 18px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:  400; 
+    border: 0;
+   
+}
+
+.p1{
+    
+    font-size: 10px;
+    line-height: 20px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:  400; 
+    width: 100%;
+    
+}
+
+.p2{
+    
+    font-size: 10px;
+    line-height: 20px;
+    width: 100%;
+    opacity: 1;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:  400; 
+    width: 100%;
+    
+}
+
+.btnlast{
+    font-size: 20px;
+    background-color: #999999;
+    color: white;
+    margin-top: 15px;
+    height: 52px;
+    width: 130px;
+   padding-left: 0;
+   margin-left: 0;
+   border: 0;
+}
+
+.lastdiv{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.footer{
+    float: left;
+    height: 100vh;
+    width: 100%;
+    background-color: #121212;
+}
+
+.footer p{
+    color: white;
+    margin-left: 200px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    width: 100%;
+}
+
+.listf{
+    
+    color: white;
+    display: flex;
+    flex-direction: row;
+    height: 52vh;
+    margin-left: 84.6px;
+    padding-top: 30px;
+    
+}
+
+.f1{
+    color: white;
+    float: left;
+    margin-right: 90px;
+    
+    
+}
+
+.f1 li{
+    list-style: none;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #82978F;
+    padding-bottom: 2px;
+
+}
+
+.f1 h2{
+    list-style: none;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.fcontact{
+    float: left;
+     margin-left: 84.6px;
+}
+
+.fcontact h3{
+    color: white;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.sym{
+    float: left;
+    margin-left: 84.6px;
+    width: 100%;
+}
+
+.ff{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 84.6px;
+    padding-top: 50px;
+}
